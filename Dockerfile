@@ -9,4 +9,4 @@ WORKDIR /var/www/html
 
 COPY supervisor.conf /
 
-CMD ["supervisord", "-c", "/supervisord.conf"]
+CMD ["supervisord", "-c", "/supervisor.conf"]
